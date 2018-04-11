@@ -54,5 +54,8 @@
     "jquery": "^1.9.1",
     "ngx-bootstrap": "^2.0.3",
     "popper.js": "^1.14.3"
+  },
+  "publishConfig": {
+    "registry": "http://72.14.184.206:8081/repository/npm-private/"
   }
 }
