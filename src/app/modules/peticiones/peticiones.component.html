@@ -1,0 +1,21 @@
+<div>
+  <h1>TABLA CON LLAMADA A SERVICIO</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>userID</th>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Body</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let petition of petitions">
+        <td>{{petition.userId}}</td>
+        <td>{{petition.id}}</td>
+        <td>{{petition.title}}</td>
+        <td>{{petition.body}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
