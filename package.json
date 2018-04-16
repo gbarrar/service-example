@@ -56,6 +56,6 @@
     "popper.js": "^1.14.3"
   },
   "publishConfig": {
-    "registry": "http://72.14.184.206:8081/repository/npm-private/"
+    "registry": "http://104.131.74.214:8081/repository/npm-private/"
   }
 }
